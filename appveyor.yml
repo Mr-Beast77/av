@@ -1,0 +1,7 @@
+image: Ubuntu
+
+install:
+- whoami && echo $0
+- sh: echo $0 && df -h && free -h && nproc && cat /etc/os*
+
+build: off
